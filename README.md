@@ -1,5 +1,5 @@
 # PPRL-Mask
-
+![Framework](temple_firts_fig.png)
 Official implementation of **PPRL-Mask: Reinforcement Learning for Adaptive Mask Selection in Semi-Supervised Segmentation**.
 
 PPRL-Mask is a lightweight and plug-and-play reinforcement learning module for mask selection in teacher-student semi-supervised segmentation. It constructs policy states from semantic features, prediction uncertainty, and teacher-student disagreement, and optimizes the policy with a boundary-aware reward. The module is used only during training and introduces no inference-time overhead.
